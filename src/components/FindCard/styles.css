@@ -1,0 +1,29 @@
+.card-container {
+    background-color: #E6F7FF;
+    height: 270px;
+    border-radius: 16px;
+    padding: 50px 20px;
+}
+
+.card-container h2 {
+    font-size: 38px;
+}
+
+.find-user-form {
+    margin: 20px 0 20px 0;
+
+}
+
+.find-user-form input { 
+    width: 298px;
+    height: 40px;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+}
+
+.find-user-form input::placeholder {
+    color: #BFBFBF;
+    font-size: 16px;
+}

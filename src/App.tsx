@@ -1,9 +1,9 @@
-import Home from "./routes/Home"
+import FindUser from "./routes/FindUser"
 
 function App() {
 
   return (
-    <Home/>
+    <FindUser/>
   )
 }
 
