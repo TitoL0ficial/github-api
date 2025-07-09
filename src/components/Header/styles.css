@@ -1,0 +1,17 @@
+header {
+    background-color: #1890FF;
+    height: 62px;
+    display: flex;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-container h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}

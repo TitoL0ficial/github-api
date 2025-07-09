@@ -1,0 +1,23 @@
+.section-container {
+    padding: 30px 0;
+}
+
+.section-container h2 {
+    font-size: 48px;
+}
+
+.section-container h4 {
+    font-size: 24px;
+    color: #7E7E7E;
+    margin-bottom: 30px;
+}
+
+.start-button {
+    background-color: #1890FF;
+    color: #fff;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+}

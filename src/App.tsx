@@ -1,7 +1,9 @@
+import Home from "./routes/Home"
+
 function App() {
 
   return (
-    <h1>Test</h1>
+    <Home/>
   )
 }
 
