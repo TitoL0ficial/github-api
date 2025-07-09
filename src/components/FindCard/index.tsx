@@ -1,6 +1,10 @@
 import './styles.css';
 
-export default function FindCard() {
+type Props = {
+  text: string;
+}
+
+export default function FindCard( {text} : Props ) {
   return (
     <div className="card-container git-container">
       <h2>Encontre um perfil Github</h2>
@@ -10,7 +14,7 @@ export default function FindCard() {
         placeholder="Usuário Github"
         />
       </form>
-      <button className="start-button">Encontrar</button>
+      <button className="start-button">{text}</button>
     </div>
   );
 }

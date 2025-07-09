@@ -1,10 +1,16 @@
-import FindUser from "./routes/FindUser"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import FindUser from "./routes/FindUser";
+import Home from "./routes/Home";
 
-function App() {
-
+export default function App() {
   return (
-    <FindUser/>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="find" element={<FindUser />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+

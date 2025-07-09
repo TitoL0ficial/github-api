@@ -8,7 +8,7 @@ export default function FindUser() {
       <Header />
       <main>
         <section className="find-user-section">
-          <FindCard/>
+          <FindCard text="Encontrar"/>
         </section>
       </main>
     </>
