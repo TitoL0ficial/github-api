@@ -14,7 +14,7 @@ a, a:hover {
 
 .git-container {
     width: 100%;
-    max-width: 960px;
+    max-width: 1250px;
     margin: 0 auto;
 } 
 
@@ -26,12 +26,10 @@ main {
     padding: 30px 0;
 }
 
-.start-button {
-    background-color: #1890FF;
-    color: #fff;
-    height: 40px;
-    width: 101px;
-    font-size: 16px;
-    border-radius: 4px;
-    border: none;
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
 }
